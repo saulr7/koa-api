@@ -1,4 +1,4 @@
-const { getAllUsers, getUserById } = require('../services/userService');
+const { getAllUsers, getUserById } = require('../services');
 
 const getAll = (ctx) => {
   ctx.body = getAllUsers();
